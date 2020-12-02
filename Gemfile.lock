@@ -1,12 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    line-bot-api (1.16.0)
     net-ping (2.0.8)
 
 PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  line-bot-api
   net-ping
 
 BUNDLED WITH

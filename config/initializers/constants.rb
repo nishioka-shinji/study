@@ -13,4 +13,9 @@ module CONST
       LONGTITUDE_TOLERANCE: 0.0003,
     }
   }.freeze.each_value(&:freeze)
+  LINE_CONFIG = {
+    CHANNEL_SECRET: "<channel secret>",
+    CHANNEL_TOKEN:  "<channel access token>"
+    USER_ID:        "<to>"
+  }.freeze
 end
